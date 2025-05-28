@@ -1,0 +1,11 @@
+# Files
+*.chd
+*.BIN
+CMakeUserPresets.json
+*.ignore
+
+# Folders
+out/
+saves/
+.cache/
+*.ignore/
