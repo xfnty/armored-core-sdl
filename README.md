@@ -8,16 +8,16 @@ This is an unfinished but working SDL3 [libretro][libretro] frontend that also u
 memory to enable mouse look in [Armored Core 1][ac] as it is done in 
 [MouseInjectorDolphinDuck][injector]. It uses [Swanstation][swanstation] as libretro core.
 
-Before compiling the emulator, ensure you have a C compiler, [CMake][cmake], [Python][py] and 
-[Ninja][ninja]. Put any PSX bios (`SCPH1001.BIN` for example) and Armored Core `.chd` ROM files into
+You can download the [latest binary release][release] or compile the project from scratch.
+
+Before compiling the emulator, ensure you have [CMake][cmake], [Python][py] and 
+[Ninja][ninja] installed. Put any PSX bios (`SCPH1001.BIN` for example) and Armored Core `.chd` ROM files into
 `data/` folder. Rename AC ROM to `rom.chd`.
 
 Build and run the project with the following command:
 ```bat
 cmake --preset main && cmake --build --preset Release && out\Release\Emulator.exe
 ```
-
-Or you can download the [latest binary release][release].
 
 ### Controls
 - `Escape` - lock/unlock mouse
