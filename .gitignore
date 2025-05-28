@@ -1,6 +1,6 @@
 # Files
 *.chd
-*.BIN
+*.bin
 CMakeUserPresets.json
 *.ignore
 

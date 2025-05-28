@@ -1,0 +1,5 @@
+file(GLOB libraries "*")
+list(FILTER libraries EXCLUDE REGEX "CMakeLists")
+foreach(lib ${libraries})
+    add_subdirectory(${lib})
+endforeach()
