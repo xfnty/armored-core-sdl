@@ -34,7 +34,7 @@ cmake --preset main && cmake --build --preset Release && out\Release\Emulator.ex
 - `Enter` - START
 - `Backspace` - SELECT
 - `LMB` - fire
-- `RMB` - switch guns
+- `RMB` - switch guns, show part details
 
 [libretro]: https://www.libretro.com/
 [ac]: https://en.wikipedia.org/wiki/Armored_Core_(video_game)
