@@ -181,7 +181,7 @@ void Core_SaveGame(const char *save)
         return;
     }
 
-    SDL_Log("Saved state");
+    SDL_Log("Saved state to \"%s\"", save);
 }
 
 void Core_SetCheatsEnabled(bool enabled)

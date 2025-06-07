@@ -22,8 +22,7 @@ cmake --preset main && cmake --build --preset Release && out\Release\Emulator.ex
 ### Controls
 - `Escape` - lock/unlock mouse
 - `1` - toggle mouse look (ON by default)
-- `2` - save game state (automatically saved to `data/save.bin` on shutdown)
-- `3` - load game state (automatically loaded on startup)
+- `2` - save game state (periodically saved to `data/autosave.bin` and before shutdown)
 - `F` - toggle fullscreen mode
 - `Backslash` - pause/resume the game (paused on focus loss anyway)
 - `Left Arrow`, `Right Arrow` - go left/right in menus
@@ -34,7 +33,7 @@ cmake --preset main && cmake --build --preset Release && out\Release\Emulator.ex
 - `Enter` - START
 - `Backspace` - SELECT
 - `LMB` - fire
-- `RMB` - switch guns
+- `RMB` - switch guns, show part details
 
 [libretro]: https://www.libretro.com/
 [ac]: https://en.wikipedia.org/wiki/Armored_Core_(video_game)
